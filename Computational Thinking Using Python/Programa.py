@@ -31,26 +31,17 @@ print("------------------------------------------")
 
 # CRIANDO LISTAS, DICIONÁRIOS, SETS E TUPLAS - OK
 dicAlunos = Funcoes.buscarAlunosBanco(dsn, Aluno)
-dicProfessores = Funcoes.buscarProfessoresBanco(dsn, Professor)
 dicFuncionarios = Funcoes.buscarFuncionariosBanco(dsn, Funcionario)
-listaModulos = Funcoes.buscarModulosBanco(dsn, Modulo)
-listaAulas = Funcoes.buscarAulasBanco(dsn, Aula)
-listaQuestoes = Funcoes.buscarQuestoesBanco(dsn, Questao)
 listaProdutos = Funcoes.buscarProdutosBanco(dsn, Produto)
 listaMovimentacoes = Funcoes.buscarMovimentacoesBanco(dsn, Movimentacao)
-listaCertificados = Funcoes.buscarCertificadosBanco(dsn, Certificado)
 cpfs_cadastrados = Funcoes.buscarCpfsCadastrados(dsn)
 emails_cadastrados = Funcoes.buscarEmailsCadastrados(dsn)
 
 # DECLARANDO VARIÁVEIS INICIAIS - OK
 iniciar = 1
 id_usuario = Funcoes.buscarIdMax(dsn, "id_usuario", "usuario")
-id_modulo = Funcoes.buscarIdMax(dsn, "id_modulo", "modulo")
-id_aula = Funcoes.buscarIdMax(dsn, "id_aula", "aula")
-id_questao = Funcoes.buscarIdMax(dsn, "id_questao", "questao")
 id_produto = Funcoes.buscarIdMax(dsn, "id_produto", "produto")
 id_movimentacao = Funcoes.buscarIdMax(dsn, "id_movimentacao", "movimentacao")
-id_certificado = Funcoes.buscarIdMax(dsn, "id_certificado", "certificado")
 
 
 while (iniciar == 1):
