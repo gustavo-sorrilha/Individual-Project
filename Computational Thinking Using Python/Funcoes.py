@@ -22,14 +22,11 @@ class Funcoes:
 
     def menuAdmin():
         return (Funcoes.menuCabecalho() +
-        "01. ALUNOS\n"
-        "02. PROFESSORES\n"
-        "03. FUNCIONÁRIOS\n"
-        "04. MÓDULOS\n"
-        "05. AULAS\n"
-        "06. QUESTÕES\n"
-        "07. PRODUTOS\n"
-        "08. SAIR\n" +
+        "01. Beneficiarios\n"
+        "02. Mercados\n"
+        "03. Restaurantes\n"
+        "04. PRODUTOS\n"
+        "05. SAIR\n" +
         Funcoes.menuRodape())
 
     def menuAdminAlunos():
